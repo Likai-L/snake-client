@@ -29,6 +29,26 @@ const handleUserInput = (key) => {
   if (key === "d") {
     connection.write("Move: right")
   };
+
+  if (key === "1") {
+    connection.write("Say: nom nom")
+  }
+
+  if (key === "2") {
+    connection.write("Say: no step on snek")
+  }
+
+  if (key === "3") {
+    connection.write("Say: me nope rope")
+  }
+
+  if (key === "4") {
+    connection.write("Say: me danger noodle")
+  }
+
+  if (key === "5") {
+    connection.write("Say: me judgy shoe lace")
+  }
 };
 
 module.exports = {
